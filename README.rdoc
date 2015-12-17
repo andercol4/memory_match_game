@@ -1,0 +1,19 @@
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
+Basic Objectives:
+  1) build a rails app and put all the JS in the rails app. Make sure you remove the coffee-rails gem before generating any controllers so you don't end up with coffee script files.
+  2) build a 4 x 4 grid
+  3) be able to click on each grid item and reveal the value
+  4) be able to click on another item to reveal another item
+  5) if both items match, alert the user and keep showing those cards
+      a) if both items don't match, hide the values again and alert the user
+  6) alert the user that they won once that matched all the items on the board
+
+Bonus:
+  1) don't let the user click on already matched cards
+  2) don't let the user click on any cards that are showing
+  3) style it with materialize or bootstrap
+  4) randomize the order of each cell on every page refresh
+  5) ability to reset the game once you've won without a full page reload
+  6) instead of just numbers in the cells that you match, figure out how to use images to match
